@@ -1,0 +1,347 @@
+.container, .container_2 {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar_1, .bar_1_2, .bar_2, .bar_2_2, .bar_3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Burger to X */
+
+.burger_to_x .bar_1 {
+    -webkit-transform: rotate(-45deg) translate(-8px, 8px);
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.burger_to_x .bar_2 {
+    opacity: 0;
+}
+
+.burger_to_x .bar_3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Burger to Minus */
+
+.burger_to_minus .bar_1 {
+    opacity: 0;
+}
+
+.burger_to_minus .bar_2 {
+    opacity: 1;
+}
+
+.burger_to_minus .bar_3 {
+    opacity: 0;
+}
+
+/* Burger to smaller Burger */
+
+.burger_to_smaller_burger .bar_1 {
+    -webkit-transform: translate(0px, 3px);
+    transform: translate(0px, 3px);
+}
+
+.burger_to_smaller_burger .bar_2 {
+    opacity: 0;
+}
+
+.burger_to_smaller_burger .bar_3 {
+    -webkit-transform: translate(0px, -3px);
+    transform: translate(0px, -3px);
+}
+
+/* Burger to left arrow */
+
+.burger_to_left_arrow .bar_1 {
+    -webkit-transform: rotate(-45deg) translate(-1px, -4px);
+    transform: rotate(-45deg) translate(-1px, -4px);
+}
+
+.burger_to_left_arrow .bar_2 {
+    opacity: 1;
+}
+
+.burger_to_left_arrow .bar_3 {
+    -webkit-transform: rotate(45deg) translate(0px, 3px);
+    transform: rotate(45deg) translate(0px, 3px);
+}
+
+/* Burger to right arrow */
+
+.burger_to_right_arrow .bar_1 {
+    -webkit-transform: rotate(45deg) translate(2px, -3px);
+    transform: rotate(45deg) translate(2px, -3px);
+}
+
+.burger_to_right_arrow .bar_2 {
+    opacity: 1;
+}
+
+.burger_to_right_arrow .bar_3 {
+    -webkit-transform: rotate(-45deg) translate(2px, 3px);
+    transform: rotate(-45deg) translate(2px, 3px);
+}
+
+/* Burger to top arrow - 1 */
+
+.burger_to_top_arrow_1 .bar_1 {
+    -webkit-transform: rotate(45deg) translate(16px, -4px);
+    transform: rotate(45deg) translate(16px, -4px);
+}
+
+.burger_to_top_arrow_1 .bar_2 {
+    -webkit-transform: rotate(90deg) translate(7px, -2.75px);
+    transform: rotate(90deg) translate(7px, -2.75px);
+}
+
+.burger_to_top_arrow_1 .bar_3 {
+    -webkit-transform: rotate(-45deg) translate(4px, -16px);
+    transform: rotate(-45deg) translate(4px, -16px);
+}
+
+/* Burger to top arrow - 2 */
+
+.burger_to_top_arrow_2 .bar_1 {
+    -webkit-transform: rotate(-45deg) translate(-15px, 3px);
+    transform: rotate(-45deg) translate(-15px, 3px);
+}
+
+.burger_to_top_arrow_2 .bar_2 {
+    -webkit-transform: rotate(90deg) translate(12px, -2.75px);
+    transform: rotate(90deg) translate(12px, -2.75px);
+}
+
+.burger_to_top_arrow_2 .bar_3 {
+    -webkit-transform: rotate(45deg) translate(3px, -15px);
+    transform: rotate(45deg) translate(3px, -15px);
+}
+
+/* Burger to bottom arrow - 1 */
+
+.burger_to_bottom_arrow_1 .bar_1 {
+    -webkit-transform: rotate(45deg) translate(0px, 10px);
+    transform: rotate(45deg) translate(0px, 10px);
+}
+
+.burger_to_bottom_arrow_1 .bar_2 {
+    -webkit-transform: rotate(90deg) translate(-13px, -3.75px);
+    transform: rotate(90deg) translate(-13px, -3.75px);
+}
+
+.burger_to_bottom_arrow_1 .bar_3 {
+    -webkit-transform: rotate(-45deg) translate(21px, 0px);
+    transform: rotate(-45deg) translate(21px, 0px);
+}
+
+/* Burger to bottom arrow - 2 */
+
+.burger_to_bottom_arrow_2 .bar_1 {
+    -webkit-transform: rotate(-45deg) translate(7px, 14px);
+    transform: rotate(-45deg) translate(7px, 14px);
+}
+
+.burger_to_bottom_arrow_2 .bar_2 {
+    -webkit-transform: rotate(90deg) translate(-13px, -3.75px);
+    transform: rotate(90deg) translate(-13px, -3.75px);
+}
+
+.burger_to_bottom_arrow_2 .bar_3 {
+    -webkit-transform: rotate(45deg) translate(-18px, -7px);
+    transform: rotate(45deg) translate(-18px, -7px);
+}
+
+/* Burger to left triangle */
+
+.burger_to_left_triangle .bar_1 {
+    -webkit-transform: rotate(-27.5deg) translate(0px, -1.5px);
+    transform: rotate(-27.5deg) translate(0px, -1.5px);
+}
+
+.burger_to_left_triangle .bar_2 {
+    -webkit-transform: rotate(90deg) translate(-5px, -15px);
+    transform: rotate(90deg) translate(-5px, -15px);
+}
+
+.burger_to_left_triangle .bar_3 {
+    -webkit-transform: rotate(27.5deg) translate(-4px, -7.5px);
+    transform: rotate(27.5deg) translate(-4px, -7.5px);
+}
+
+/* Burger to right triangle */
+
+.burger_to_right_triangle .bar_1 {
+    -webkit-transform: rotate(27.5deg) translate(5px, -4px);
+    transform: rotate(27.5deg) translate(5px, -4px);
+}
+
+.burger_to_right_triangle .bar_2 {
+    -webkit-transform: rotate(90deg) translate(-5px, 10px);
+    transform: rotate(90deg) translate(-5px, 10px);
+}
+
+.burger_to_right_triangle .bar_3 {
+    -webkit-transform: rotate(-27.5deg) translate(10px, -5px);
+    transform: rotate(-27.5deg) translate(10px, -5px);
+}
+
+/* Burger to top triangle */
+
+.burger_to_top_triangle .bar_1 {
+    -webkit-transform: rotate(-60deg) translate(-8px, -3px);
+    transform: rotate(-60deg) translate(-8px, -3px);
+}
+
+.burger_to_top_triangle .bar_2 {
+    -webkit-transform: translate(1px, 8px);
+    transform: translate(1px, 8px);
+}
+
+.burger_to_top_triangle .bar_3 {
+    -webkit-transform: rotate(60deg) translate(-10px, -16px);
+    transform: rotate(60deg) translate(-10px, -16px);
+}
+
+/* Burger to bottom triangle */
+
+.burger_to_bottom_triangle .bar_1 {
+    -webkit-transform: rotate(60deg) translate(2px, 10px);
+    transform: rotate(60deg) translate(2px, 10px);
+}
+
+.burger_to_bottom_triangle .bar_2 {
+    -webkit-transform: translate(0px, -18px);
+    transform: translate(0px, -18px);
+}
+
+.burger_to_bottom_triangle .bar_3 {
+    -webkit-transform: rotate(-60deg) translate(17px, -1px);
+    transform: rotate(-60deg) translate(17px, -1px);
+}
+
+/* Burger to steps */
+
+.burger_to_steps .bar_1 {
+    -webkit-transform: translate(10px, 0px);
+    transform: translate(10px, 0px);
+}
+
+.burger_to_steps .bar_2 {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+}
+
+.burger_to_steps .bar_3 {
+    -webkit-transform: translate(-10px, 0px);
+    transform: translate(-10px, 0px);
+}
+
+/* Burger to steps reverse */
+
+.burger_to_steps_reserve .bar_1 {
+    -webkit-transform: translate(-10px, 0px);
+    transform: translate(-10px, 0px);
+}
+
+.burger_to_steps_reserve .bar_2 {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+}
+
+.burger_to_steps_reserve .bar_3 {
+    -webkit-transform: translate(10px, 0px);
+    transform: translate(10px, 0px);
+}
+
+/* Small burger to X */
+
+.bar_1_2 {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+}
+
+.bar_2_2 {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+}
+
+.small_burger_to_x .bar_1_2 {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.small_burger_to_x .bar_2_2 {
+    -webkit-transform: rotate(-45deg) translate(8px, -7px);
+    transform: rotate(-45deg) translate(8px, -7px);
+}
+
+/* Plus to minus - opacity */
+
+.bar_1_2 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.bar_2_2 {
+    -webkit-transform: translate(0px, -10px);
+    transform: translate(0px, -10px);
+}
+
+.plus_to_minus_opacity .bar_1_2 {
+    opacity: 0.0;
+}
+
+.plus_to_minus_opacity .bar_2_2 {
+    -webkit-transform: translate(0px, -10px);
+    transform: translate(0px, -10px);
+}
+
+/* Plus to minus - rotate */
+
+.bar_1_2 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.bar_2_2 {
+    -webkit-transform: translate(0px, -10px);
+    transform: translate(0px, -10px);
+}
+
+.plus_to_minus_rotate .bar_1_2 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.plus_to_minus_rotate .bar_2_2 {
+    -webkit-transform: translate(0px, -10px);
+    transform: translate(0px, -10px);
+}
+
+/* Plus to X */
+
+.bar_1_2 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.bar_2_2 {
+    -webkit-transform: translate(0px, -10px);
+    transform: translate(0px, -10px);
+}
+
+.plus_to_x .bar_1_2 {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.plus_to_x .bar_2_2 {
+    -webkit-transform: rotate(-45deg) translate(8px, -7px);
+    transform: rotate(-45deg) translate(8px, -7px);
+}
